@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: insecure-reveal-env-variables
+  namespace: insecure-reveal-env-variables
+  labels:
+    name: insecure-reveal-env-variables
+    app: insecure-reveal-env-variables
+spec:
+  selector:
+    name: insecure-reveal-env-variables 
+  type: ClusterIP
+  ports:
+   - name: http
+     port: 80
+     targetPort: 8080
+     protocol: TCP

@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: insecure-reveal-env-variables
+  namespace: insecure-reveal-env-variables
+  labels:
+    name: insecure-reveal-env-variables
+    app: insecure-reveal-env-variables
+spec:
+  replicas: 1
+  selector:
+      matchLabels:
+        name: insecure-reveal-env-variables
+  template:
+    metadata:
+      labels:
+        name: insecure-reveal-env-variables
+    spec:
+      containers:
+      - name: insecure-reveal-env-variables 
+        image: aljorhythm/insecure-reveal-env-variables:latest
+        ports:
+        - containerPort: 8080
+        env:
+        - name: PORT
+          value: "8080"
