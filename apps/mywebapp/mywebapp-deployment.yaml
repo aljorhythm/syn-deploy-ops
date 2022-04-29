@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: web 
-        image: janakiramm/mywebapp:v2
+        image: janakiramm/mywebapp:v1
         ports:
         - containerPort: 80
