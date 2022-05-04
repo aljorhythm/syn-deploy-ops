@@ -1,6 +1,6 @@
 kind: ImagePolicy
 metadata:
-  name: insecure-reveal-env-variables-image-repository
+  name: insecure-reveal-env-variables-image-policy
 spec:
   filterTags:
     pattern: '^main-[a-fA-F0-9]+-(?P<ts>.*)'
