@@ -7,7 +7,7 @@ spec:
   imageRepositoryRef:
     name: insecure-reveal-env-variables-repository
   filterTags:
-    pattern: '^main-[a-fA-F0-9]+-(?P<ts>.*)'
+    pattern: '^main+-(?P<ts>.*)-[a-fA-F0-9]'
     extract: '$ts'
   policy:
      numerical:
