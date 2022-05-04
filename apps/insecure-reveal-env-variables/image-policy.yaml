@@ -1,6 +1,7 @@
 kind: ImagePolicy
-spec:
+metadata:
   name: insecure-reveal-env-variables-image-repository
+spec:
   filterTags:
     pattern: '^main-[a-fA-F0-9]+-(?P<ts>.*)'
     extract: '$ts'
