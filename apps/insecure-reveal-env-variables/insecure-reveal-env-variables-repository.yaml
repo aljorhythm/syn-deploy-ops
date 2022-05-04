@@ -1,0 +1,10 @@
+---
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: insecure-reveal-env-variables-repository
+  namespace: flux-system
+spec:
+  image: aljorhythm/insecure-reveal-env-variables
+  interval: 1m0s
+

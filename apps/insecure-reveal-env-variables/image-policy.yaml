@@ -1,0 +1,8 @@
+kind: ImagePolicy
+spec:
+  filterTags:
+    pattern: '^main-[a-fA-F0-9]+-(?P<ts>.*)'
+    extract: '$ts'
+  policy:
+     numerical:
+      order: asc
