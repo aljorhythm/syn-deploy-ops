@@ -4,6 +4,7 @@ metadata:
   name: insecure-reveal-env-variables-image-policy
   namespace: flux-system
 spec:
+  imageRepositoryRef: insecure-reveal-env-variables-repository
   filterTags:
     pattern: '^main-[a-fA-F0-9]+-(?P<ts>.*)'
     extract: '$ts'
