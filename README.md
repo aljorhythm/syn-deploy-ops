@@ -2,6 +2,8 @@
 
 Gitops experiment with Digital Ocean Kubernetes Service, Flux CD and github
 
+public IP: 146.190.6.63
+
 ## insecure-reveal-env-variables
 
 https://github.com/aljorhythm/insecure-reveal-env-variables
