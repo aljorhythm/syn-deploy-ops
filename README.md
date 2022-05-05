@@ -22,3 +22,4 @@ https://github.com/digitalocean/Kubernetes-Starter-Kit-Developers/blob/main/15-c
 
 https://fluxcd.io/docs/guides/image-update/
 https://fluxcd.io/docs/use-cases/gh-actions-manifest-generation/
+https://fluxcd.io/docs/guides/image-update/
