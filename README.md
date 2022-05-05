@@ -33,6 +33,9 @@ Trigger reconciliation
 Get all iamges
 `flux get images all --all-namespaces`
 
+Suspend image update
+`flux suspend image update flux-system`
+
 Resume image update
 `flux resume image update flux-system`
 
