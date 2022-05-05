@@ -11,6 +11,13 @@ https://github.com/aljorhythm/insecure-reveal-env-variables
 Updates to the repo will publish an image to Docker Hub and picked up by FluxCD in the K8s cluster
 ## Sample commands
 
+Set up
+```
+export GITHUB_TOKEN=<FILL>
+export DO_SPACES_ACCESS_KEY=<FILL>
+export DO_SPACES_SECRET_KEY=<FILL>
+```
+
 Bootstrap
 ```
 flux bootstrap github --owner=aljorhythm \
