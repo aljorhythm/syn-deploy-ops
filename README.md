@@ -11,6 +11,15 @@ https://github.com/aljorhythm/insecure-reveal-env-variables
 Updates to the repo will publish an image to Docker Hub and picked up by FluxCD in the K8s cluster
 ## Sample commands
 
+Bootstrap
+```
+flux bootstrap github --owner=aljorhythm \
+--components-extra=image-reflector-controller,image-automation-controller \
+--repository=syn-deploy-ops --path clusters/dev \
+--personal \
+--read-write-key
+```
+
 Trigger reconciliation
 `flux reconcile source git flux-system`
 
