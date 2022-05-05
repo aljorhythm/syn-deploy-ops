@@ -47,3 +47,4 @@ https://github.com/digitalocean/Kubernetes-Starter-Kit-Developers/blob/main/15-c
 https://fluxcd.io/docs/guides/image-update/
 https://fluxcd.io/docs/use-cases/gh-actions-manifest-generation/
 https://fluxcd.io/docs/guides/image-update/
+Deploy key rotation: https://github.com/fluxcd/website/pull/912/files
