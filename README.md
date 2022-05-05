@@ -26,6 +26,9 @@ Trigger reconciliation
 Get all iamges
 `flux get images all --all-namespaces`
 
+Resume image update
+`flux resume image update flux-system`
+
 ## References
 
 https://github.com/digitalocean/Kubernetes-Starter-Kit-Developers/blob/main/08-kubernetes-sealed-secrets/README.md
