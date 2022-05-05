@@ -9,16 +9,16 @@ metadata:
 spec:
   replicas: 1
   selector:
-      matchLabels:
-        name: insecure-reveal-env-variables
+    matchLabels:
+      name: insecure-reveal-env-variables
   template:
     metadata:
       labels:
         name: insecure-reveal-env-variables
     spec:
       containers:
-      - name: insecure-reveal-env-variables 
-        image: aljorhythm/insecure-reveal-env-variables:latest # {"$imagepolicy": "flux-system:insecure-reveal-env-variables-image-policy"}
+      - name: insecure-reveal-env-variables
+        image: aljorhythm/insecure-reveal-env-variables:main-1651740236-7efab47 # {"$imagepolicy": "flux-system:insecure-reveal-env-variables-image-policy"}
         ports:
         - containerPort: 8080
         env:
