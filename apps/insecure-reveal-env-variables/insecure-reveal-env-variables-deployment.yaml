@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: insecure-reveal-env-variables
-        image: aljorhythm/insecure-reveal-env-variables:main-1651743028-4324fc9 # {"$imagepolicy": "flux-system:insecure-reveal-env-variables-image-policy"}
+        image: aljorhythm/insecure-reveal-env-variables:main-1651743242-312e334 # {"$imagepolicy": "flux-system:insecure-reveal-env-variables-image-policy"}
         ports:
         - containerPort: 8080
         env:
