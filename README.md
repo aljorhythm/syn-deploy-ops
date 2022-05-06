@@ -27,24 +27,28 @@ flux bootstrap github --owner=aljorhythm \
 --read-write-key
 ```
 
-Trigger reconciliation
+### Trigger reconciliation
+
 `flux reconcile source git flux-system`
 
-Get all iamges
+### Get all iamges
+
 `flux get images all --all-namespaces`
 
-Suspend image update
+### Suspend image update
+
 `flux suspend image update flux-system`
 
-Resume image update
+### Resume image update
+
 `flux resume image update flux-system`
 
 ## References
 
-https://github.com/digitalocean/Kubernetes-Starter-Kit-Developers/blob/main/08-kubernetes-sealed-secrets/README.md
-https://github.com/digitalocean/Kubernetes-Starter-Kit-Developers/blob/main/15-continuous-delivery-using-gitops/fluxcd.md
+- https://github.com/digitalocean/Kubernetes-Starter-Kit-Developers/blob/main/08-kubernetes-sealed-secrets/README.md
+- https://github.com/digitalocean/Kubernetes-Starter-Kit-Developers/blob/main/15-continuous-delivery-using-gitops/fluxcd.md
 
-https://fluxcd.io/docs/guides/image-update/
-https://fluxcd.io/docs/use-cases/gh-actions-manifest-generation/
-https://fluxcd.io/docs/guides/image-update/
-Deploy key rotation: https://github.com/fluxcd/website/pull/912/files
+- https://fluxcd.io/docs/guides/image-update/
+- https://fluxcd.io/docs/use-cases/gh-actions-manifest-generation/
+- https://fluxcd.io/docs/guides/image-update/
+- Deploy key rotation: https://github.com/fluxcd/website/pull/912/files
