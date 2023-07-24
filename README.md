@@ -1,6 +1,12 @@
+!!! 
+INFRA IS DECOMMISSIONED
+!!!
+
 # syn-deploy-ops
 
 Gitops experiment with Digital Ocean Kubernetes Service, Flux CD and github
+
+![DOKS Flux CD.drawio](docs/DOKS%20Flux%20CD.drawio.png)
 
 public IP: [146.190.6.63](http://146.190.6.63)
 
@@ -9,6 +15,7 @@ public IP: [146.190.6.63](http://146.190.6.63)
 https://github.com/aljorhythm/insecure-reveal-env-variables
 
 Updates to the repo will publish an image to Docker Hub and picked up by FluxCD in the K8s cluster
+
 ## Sample commands
 
 Set up
